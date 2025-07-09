@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-area {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-box {
+    padding: 8px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  #search-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #search-results, #bookshelf {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  .book {
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    width: 140px;
+    text-align: center;
+  }
+  
+  .book:hover {
+    background: #eef;
+  }
+  
+  .book img {
+    max-height: 120px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #pagination {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #pagination button {
+    margin: 0 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    background: #ddd;
+    border-radius: 3px;
+  }
+  
+  #pagination button:hover {
+    background: #bbb;
+  }
+  
+  #pagination button.active {
+    font-weight: bold;
+    background: #999;
+    color: white;
+  }
+  
+  #book-details {
+    background: white;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
